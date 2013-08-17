@@ -10,6 +10,14 @@ function its(name, gen) {
   });
 }
 
+/**
+ * Tests
+ * =====
+ *
+ * Note that the tests (not the actual module are written using ES6 generators).
+ * Invoke `mocha --harmony-generators` or `npm test`
+ */
+
 describe('Versioned Set', function () {
 
   var set, c;
